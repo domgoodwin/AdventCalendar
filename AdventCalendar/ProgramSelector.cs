@@ -46,6 +46,11 @@ namespace AdventCalendar
                         Day3 day3 = new Day3();
                         day3.Main();
                         break;
+                    case 4:
+                        Console.WriteLine(programList[4]);
+                        Day4 day4 = new Day4();
+                        day4.Main();
+                        break;
                     default:
                         break;
                 }
