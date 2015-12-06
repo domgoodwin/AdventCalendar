@@ -20,7 +20,8 @@ namespace AdventCalendar
                     "List of programs",
                     "Day 1 - Santa floor finder",
                     "Day 2 - Elves wrapping paper",
-                    "Day 3 - Santa delivering to a infinite 2d grid"
+                    "Day 3 - Santa delivering to a infinite 2d grid",
+                    "Day 4 - Santa wants bitcoins?"
                 #endregion
                 };
 
