@@ -23,7 +23,8 @@ namespace AdventCalendar
                     "Day 3 - Santa delivering to a infinite 2d grid",
                     "Day 4 - Santa wants bitcoins?",
                     "Day 5 - Santa's naughty and nice comparer",
-                    "Day 6 - Neighbourhood lighting issues"
+                    "Day 6 - Neighbourhood lighting issues",
+                    "Day 7 - Santa's innapropriate gift for bobby"
                 #endregion
                 };
 
@@ -63,6 +64,11 @@ namespace AdventCalendar
                         Console.WriteLine(programList[6]);
                         Day6 day6 = new Day6();
                         day6.Main();
+                        break;
+                    case 7:
+                        Console.WriteLine(programList[7]);
+                        Day7 day7 = new Day7();
+                        day7.Main();
                         break;
                     default:
                         break;
